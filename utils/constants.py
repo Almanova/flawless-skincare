@@ -1,0 +1,33 @@
+CUSTOMER = 'Customer'
+ADMIN = 'Admin'
+PARTNER = 'Partner'
+
+ROLES = (
+    (CUSTOMER, CUSTOMER),
+    (ADMIN, ADMIN),
+    (PARTNER, PARTNER),
+)
+
+WAITING = 'Waiting for Payment'
+CONFIRMED = 'Confirmed'
+PROCESSED = 'Processed'
+DELIVERED = 'Delivered'
+
+ORDER_STATUSES = (
+    (WAITING, WAITING),
+    (CONFIRMED, CONFIRMED),
+    (PROCESSED, PROCESSED),
+    (DELIVERED, DELIVERED),
+)
+
+FREE_DELIVERY_MIN_PRICE = 15000
+DELIVERY_PRICE = 2000
+
+SUCCESS = 'Success'
+FAILURE = 'Failure'
+
+PAYMENT_STATUSES = (
+    (WAITING, WAITING),
+    (SUCCESS, SUCCESS),
+    (FAILURE, FAILURE),
+)
